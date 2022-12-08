@@ -3,7 +3,34 @@
     height: 80px;
     display: flex;
     justify-content: start;
+    align-items: center;
     position: relative;
+}
+.google{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+    margin-left: 185px;
+    font-size: 30px;
+    font-weight: 100;
+}
+.google > input {
+    width: 60%;
+    height: 25px;
+    /* margin-top: 5px; */
+    margin-left: 25px;
+    /* border: 1px solid red; */
+}
+button{
+    height: 25px;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    border: none;
+    background-color: #70a1ff;
+    color: white;
+    padding: 15px;
 }
 
 .menu-bars {
@@ -28,14 +55,14 @@
 
 .nav-menu.active{
     left: 0;
-    transition: 350ms;
+    transition: 550ms;
 }
 
 .nav-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 8px 0px 8px 16px =;
+    padding: 8px 0px 8px 16px;
     list-style: none;
     height: 50px;
 }
@@ -52,7 +79,7 @@
     border-radius: 4px;
 }
 .nav-text a:hover{
-    background-color: #ced6e0;
+    background-color: #f1f2f6;
 }
 
 .nav-menu-items {
@@ -76,4 +103,8 @@
 
 span{
     margin-left: 16px;
+}
+
+.nav-text > a{
+    font-size: 18px;
 }
