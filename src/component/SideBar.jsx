@@ -14,9 +14,9 @@ function SideBar() {
         </a>
       </div>
       <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
-        <ul className='nav-menu-items'>
+        <ul className='nav-menu-items' onClick={showSidebar}>
           <li className='navbar-toggle'>
-            <a href='3' className='menu-bars'>
+            <a href='#' className='menu-bars'>
               <AiIcons.AiOutlineClose />
             </a>
           </li>
